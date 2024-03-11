@@ -18,7 +18,7 @@ public class letters {
         }
 
         System.out.println("Letter counts are:");
-        for (int i: cool )ß
+        for (int i: cool );
 
 
     }
