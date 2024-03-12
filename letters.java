@@ -5,21 +5,21 @@ public class letters {
         Scanner scanner = new Scanner(System.in);
         String word;
         char letter;
-        int[] letters = new int[26];
+        int[] numLetters = new int[26];
         //for each int in letters
             //make it 0
 
         System.out.println("what's your word?");
-        word = scanner.nextLine();
+        word = scanner.nextLine().toLowerCase();
 
         for ( int i = 0; i<word.length(); i++) {
             letter = word.charAt(i);
-            //letters[index of ^that]++;
+            numLetters[letter - 'a']++;
         }
 
         System.out.println("Letter counts are:");
-        for (int i: cool );
-
-
+        for (int element: numLetters) {
+            System.out.println(element);
+        }
     }
 }
